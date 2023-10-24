@@ -64,12 +64,45 @@
 
 /* 770px */
 @media (max-width: 770px) {
+
+
   .header .container .burger {
     display: block;
   }
 
   .header .container .menu {
     display: none;
+  }
+
+  .header .container .mobile-menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #163a24;
+    transform: translateX(100%);
+    flex-direction: column;
+    padding: 65px 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    transition: 0.7s;
+  }
+  .header .container .mobile-menu.active{
+    transform: translateX(0);
+
+  }
+  .header .container .mobile-menu li{
+    font-weight: 600;
+  }
+
+  .header .container .menu-back{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 20px 20px 0 0;
   }
 
   .hero .container {

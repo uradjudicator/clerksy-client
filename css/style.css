@@ -133,6 +133,11 @@ body {
   font-size: 25px;
   display: none;
 }
+.header .container .mobile-menu {
+  display: none;
+}
+
+
 
 /* Hero */
 .hero {
