@@ -245,3 +245,12 @@
     height: 150px;
   }
 }
+
+/* 360 */
+
+@media (max-width: 360px) {
+  .interest .container .row .card ul li::before {
+    width: 0;
+    height: 0;
+  }
+}
