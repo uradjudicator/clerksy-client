@@ -368,6 +368,17 @@ body {
   color: var(--green);
 }
 
+.email .container .row .form .counter{
+  display: none;
+}
+.email .container .row .form .counter.warning{
+  color: red;
+}
+
+.email .container .row .form .counter.active{
+  display: block;
+}
+
 .email .container .row .form p {
   font-size: 14px;
   font-weight: 400;
@@ -385,7 +396,6 @@ body {
 }
 
 /* Footer */
-.footer {}
 
 .footer .footer-top {
   display: flex;
